@@ -12,6 +12,8 @@ import java.util.concurrent.TimeUnit;
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -37,6 +39,7 @@ import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+import stepDefination.LoginStep;
 
 public class Keyword {
 	private static String DateAndTime = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date());
@@ -46,7 +49,7 @@ public class Keyword {
 	 * 
 	 * @param browsername
 	 */
-
+    
 	public static void openBrowser(String browsername) {
 
 		switch (browsername) {
@@ -133,7 +136,7 @@ public class Keyword {
 		Constants.driver.manage().window().maximize();
 
 	}
-
+	
 	/**
 	 * Use to wait the WebPage or WebElement for particular seconds
 	 * 
@@ -165,10 +168,12 @@ public class Keyword {
 		Constants.driver.close();
 
 	}
-    public static Actions getActionObject() {
-    	Actions a = new Actions(Constants.driver);
-    	return a;
-    }
+
+	public static Actions getActionObject() {
+		Actions a = new Actions(Constants.driver);
+		return a;
+	}
+
 	/**
 	 * Close All WebBrowser Tab open in Browser
 	 */
@@ -226,7 +231,7 @@ public class Keyword {
 		wait.ignoring(NoSuchElementException.class);
 		return wait;
 	}
-	
+
 	/**
 	 * 
 	 * @param time
@@ -234,7 +239,7 @@ public class Keyword {
 	public static void waitForAlert(long time) {
 		explicitWaitTime(time).until(ExpectedConditions.alertIsPresent());
 	}
-    
+
 	/**
 	 * 
 	 */
@@ -453,12 +458,13 @@ public class Keyword {
 		alert.accept();
 
 	}
+
 	/**
 	 * 
 	 * @param locatorType
 	 * @param locator
 	 */
-@Deprecated
+	@Deprecated
 	public void elementScreenShot(String locatorType, String locator) {
 		getData(locatorType, locator);
 		Point point = Constants.element.getLocation();
@@ -475,20 +481,24 @@ public class Keyword {
 			System.out.println("File Not found: ");
 		}
 	}
-/**
- * It will get a WebElement screenshot on DOM
- * @param element
- */
-public static void elementOnPageScreenShot( String locatorType, String locator ) {
-	getData(locatorType, locator);
-	AShot shot = new AShot();
-     Screenshot a = shot.coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(Constants.driver,Constants.element);
-	try {
-		ImageIO.write(a.getImage(), "PNG",new File("E:\\"+DateAndTime+ ".png"));
-	} catch (IOException e) {
-		e.printStackTrace();
+
+	/**
+	 * It will get a WebElement screenshot on DOM
+	 * 
+	 * @param element
+	 */
+	public static void elementOnPageScreenShot(String locatorType, String locator) {
+		getData(locatorType, locator);
+		AShot shot = new AShot();
+		Screenshot a = shot.coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(Constants.driver,
+				Constants.element);
+		try {
+			ImageIO.write(a.getImage(), "PNG", new File("E:\\" + DateAndTime + ".png"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
-}
+
 	/***
 	 * This method is used to get all cookies in the form of array .
 	 * 
@@ -519,19 +529,20 @@ public static void elementOnPageScreenShot( String locatorType, String locator )
 //    	 for (Cookie string : cookies) {
 // 			System.out.println(string.getName());
 // 		}
-		//System.out.println(driver.manage().getCookieNamed("session-id-time"));
+		// System.out.println(driver.manage().getCookieNamed("session-id-time"));
 		return Constants.driver.manage().getCookieNamed("session-id-time");
 	}
 
-	public void addCookie( String name, String value) {
+	public void addCookie(String name, String value) {
 		Cookie cookies = new Cookie(name, value);
 		Constants.driver.manage().addCookie(cookies);
 
 	}
-/**
- * 
- * @return
- */
+
+	/**
+	 * 
+	 * @return
+	 */
 	public String getCookieName() {
 		String name = "";
 		Set<Cookie> cookies = Constants.driver.manage().getCookies();
@@ -540,9 +551,10 @@ public static void elementOnPageScreenShot( String locatorType, String locator )
 		}
 		return name;
 	}
-/**
- * 
- */
+
+	/**
+	 * 
+	 */
 	public void deletcookies() {
 		Constants.driver.manage().deleteAllCookies();
 	}

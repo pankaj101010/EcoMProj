@@ -1,0 +1,32 @@
+2019-07-05 15:26:13,188 [main] INFO stepDefination.LoginStep - Email id validate successfully
+2019-07-05 15:27:58,437 [main] INFO stepDefination.LoginStep - Email id validate successfully
+2019-07-05 16:21:53,379 [main] INFO utility.Logconfig - username webelement detected
+2019-07-05 16:21:53,390 [main] INFO utility.Logconfig - Email id validate successfully
+2019-07-05 16:21:53,555 [main] INFO utility.Logconfig - Password validated
+2019-07-05 16:21:55,692 [main] INFO utility.Logconfig - successfully login
+2019-07-05 16:22:01,235 [main] INFO utility.Logconfig - profile opened
+2019-07-05 16:22:02,412 [main] INFO utility.Logconfig - Profile setting opened
+2019-07-05 16:33:47,092 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:33:47,151 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:33:47,152 [main] INFO utility.Logconfig - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-07-05 16:33:47,154 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:33:47,155 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:33:48,317 [main] INFO utility.Logconfig - username webelement detected
+2019-07-05 16:33:48,319 [main] INFO utility.Logconfig - Email id validate successfully
+2019-07-05 16:33:48,654 [main] INFO utility.Logconfig - Password validated
+2019-07-05 16:33:50,933 [main] INFO utility.Logconfig - successfully login
+2019-07-05 16:33:56,901 [main] INFO utility.Logconfig - profile opened
+2019-07-05 16:33:58,086 [main] INFO utility.Logconfig - Profile setting opened
+2019-07-05 16:42:38,421 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:42:38,455 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:42:38,461 [main] INFO utility.Logconfig - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+2019-07-05 16:42:38,466 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:42:38,481 [main] INFO utility.Logconfig - ****************************************************************************************
+2019-07-05 16:42:41,693 [main] INFO utility.Logconfig - username webelement detected
+2019-07-05 16:42:41,694 [main] INFO utility.Logconfig - Email id validate successfully
+2019-07-05 16:42:42,122 [main] INFO utility.Logconfig - Password validated
+2019-07-05 16:42:44,574 [main] INFO utility.Logconfig - successfully login
+2019-07-05 16:42:48,148 [main] INFO utility.Logconfig - profile opened
+2019-07-05 16:42:49,533 [main] INFO utility.Logconfig - Profile setting opened
+2019-07-05 16:42:51,371 [main] INFO utility.Logconfig - click on manage address
+2019-07-05 16:42:53,679 [main] INFO utility.Logconfig - click on address
