@@ -34,10 +34,12 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 
 import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 public class Keyword {
-	static String DateAndTime = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date());
+	private static String DateAndTime = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date());
 
 	/**
 	 * launch the Browser
@@ -473,6 +475,20 @@ public class Keyword {
 			System.out.println("File Not found: ");
 		}
 	}
+/**
+ * It will get a WebElement screenshot on DOM
+ * @param element
+ */
+public static void elementOnPageScreenShot( String locatorType, String locator ) {
+	getData(locatorType, locator);
+	AShot shot = new AShot();
+     Screenshot a = shot.coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(Constants.driver,Constants.element);
+	try {
+		ImageIO.write(a.getImage(), "PNG",new File("E:\\"+DateAndTime+ ".png"));
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+}
 	/***
 	 * This method is used to get all cookies in the form of array .
 	 * 
