@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -10,11 +9,11 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import keyword.Constants;
 
 public class AddressPage {
-WebDriver driver;
+//WebDriver driver;
 	public AddressPage() {
-		this.driver = Constants.driver;
-		PageFactory.initElements(driver, this);
-		PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
+		//this.driver = Constants.driver;
+		//PageFactory.initElements(driver, this);
+		PageFactory.initElements(new AjaxElementLocatorFactory(Constants.driver, 30), this);
 	}
 	@FindBy(how = How.XPATH, using="//div[@class='uK6xOa'][1]/div[1]/input[@name='name']")
 	WebElement Name;

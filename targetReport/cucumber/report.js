@@ -39,21 +39,21 @@ formatter.match({
   "location": "LoginStep.user_should_enter_valid_username()"
 });
 formatter.result({
-  "duration": 68115262100,
+  "duration": 52480797000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.user_should_enter_valid_password()"
 });
 formatter.result({
-  "duration": 190866200,
+  "duration": 262099600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.user_should_sucessfully_login()"
 });
 formatter.result({
-  "duration": 6829819600,
+  "duration": 5962662900,
   "status": "passed"
 });
 formatter.scenario({
@@ -89,21 +89,21 @@ formatter.match({
   "location": "AddressManage.user_should_click_on_profile()"
 });
 formatter.result({
-  "duration": 48587482200,
+  "duration": 3515301100,
   "status": "passed"
 });
 formatter.match({
   "location": "AddressManage.user_then_click_on_manageAddress()"
 });
 formatter.result({
-  "duration": 3163387500,
+  "duration": 7096881800,
   "status": "passed"
 });
 formatter.match({
   "location": "AddressManage.user_should_click_on_address()"
 });
 formatter.result({
-  "duration": 156483600,
+  "duration": 2101028800,
   "status": "passed"
 });
 formatter.scenario({
@@ -174,70 +174,70 @@ formatter.match({
   "location": "NewAddress.name_of_Customer()"
 });
 formatter.result({
-  "duration": 736115200,
+  "duration": 506107000,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.customer_mobile_number()"
 });
 formatter.result({
-  "duration": 148494600,
+  "duration": 220657400,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.customer_pin_code()"
 });
 formatter.result({
-  "duration": 141687100,
+  "duration": 198411800,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.customer_locality()"
 });
 formatter.result({
-  "duration": 159102800,
+  "duration": 140410800,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.customer_Address()"
 });
 formatter.result({
-  "duration": 52800,
+  "duration": 58600,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.customer_City()"
 });
 formatter.result({
-  "duration": 101100,
+  "duration": 42600,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.state_where_product_want_to_be_shipped()"
 });
 formatter.result({
-  "duration": 95600,
+  "duration": 52000,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.address_landmark()"
 });
 formatter.result({
-  "duration": 100800,
+  "duration": 67300,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.alternate_phone_number()"
 });
 formatter.result({
-  "duration": 124200,
+  "duration": 49100,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAddress.address_Type()"
 });
 formatter.result({
-  "duration": 95400,
+  "duration": 37600,
   "status": "passed"
 });
 });

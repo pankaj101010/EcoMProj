@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 /*extends AbstractTestNGCucumberTests it is used for running using testng */
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "feature", glue = { "stepDefination" }, tags = { "~@multipleLogin "},
-plugin = {"pretty","html:targetReport/cucumber"})
+plugin = {"pretty","html:targetReport/cucumber"},monochrome=true)
 public class Runner {
 
 }

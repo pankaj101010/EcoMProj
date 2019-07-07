@@ -6,6 +6,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 import com.relevantcodes.extentreports.model.Log;
 
@@ -14,12 +15,12 @@ import keyword.Keyword;
 import utility.Logconfig;
 
 public class LoginPage {
-	WebDriver driver;
+	//WebDriver driver;
 	Logconfig log = new Logconfig();
 
 	public LoginPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		//this.driver = driver;
+		PageFactory.initElements(new AjaxElementLocatorFactory(Constants.driver, 30), this);
 	}
 
 	@CacheLookup

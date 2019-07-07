@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -12,12 +11,12 @@ import keyword.Constants;
 import keyword.Keyword;
 
 public class ManageAddresses {
-	WebDriver driver;
+	//WebDriver driver;
 
 	public ManageAddresses() {
-		this.driver = Constants.driver;
-		PageFactory.initElements(driver, this);
-		PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
+	//	this.driver = Constants.driver;
+	//	PageFactory.initElements(driver, this);
+		PageFactory.initElements(new AjaxElementLocatorFactory(Constants.driver, 30), this);
 	}
 
 	@FindBy(how = How.XPATH, using = "(//div[@class='dHGf8H'])[1]/descendant::*[4]")

@@ -12,11 +12,13 @@ import java.util.concurrent.TimeUnit;
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.input.WindowsLineEndingInputStream;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
@@ -374,7 +376,10 @@ public class Keyword {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
 	}
-
+    public static  void javaScriptExecution() {
+    	JavascriptExecutor js = (JavascriptExecutor) Constants.driver;
+    	js.executeScript("window.scrollBy(0,1000)");
+    }
 	/**
 	 * 
 	 */
