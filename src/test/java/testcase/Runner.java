@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 //tags which "tag1 , tag2" are ORing
 /*extends AbstractTestNGCucumberTests it is used for running using testng */
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "feature", glue = { "stepDefination" }, tags = { "~@multipleLogin "},
+@CucumberOptions(features = "./feature", glue = { "stepDefination" }, tags = { "~@multipleLogin "},
 plugin = {"pretty","html:targetReport/cucumber"},monochrome=true)
 public class Runner {
 

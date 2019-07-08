@@ -37,14 +37,17 @@ public class LoginPage {
 		log.startTestCase("LoginPage");
 		username.sendKeys(user);
 	    log.info("username webelement detected");
+	    log.error("webelement not found");
 	}
 
 	public void passWord(String pass) {
 		password.sendKeys(pass);
+		log.debug("password debugging");
 	}
 
 	public void click() {
 		click.click();
+		log.warn("should click on button");
 		Keyword.sleepTime(2000);
 	}
 }

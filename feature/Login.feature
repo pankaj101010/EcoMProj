@@ -12,7 +12,7 @@ Scenario Outline: In order to verify multiple login
 Examples: 
 
 	| username | password | 
-	| pankaj123   |  pankaj345  |
+	| pankajdevgade10@gmail.com   |  P@nkaj10@  |
 	| isdvndvv | 89235289475 |
 @ManageAddress
 Scenario: addressManage

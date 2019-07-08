@@ -117,3 +117,63 @@
 2019-07-06 18:14:08,068 - utility.Logconfig -INFO - Profile setting opened
 2019-07-06 18:14:10,149 - utility.Logconfig -INFO - click on manage address
 2019-07-06 18:14:13,253 - utility.Logconfig -INFO - click on address
+2019-07-07 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -162019-07-07 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -182019-07-07 - utility.Logconfig -INFO - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+ -startTestCase -202019-07-07 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -222019-07-07 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -242019-07-07 - utility.Logconfig -INFO - username webelement detected
+ -info -482019-07-07 - utility.Logconfig -INFO - Email id validate successfully
+ -info -482019-07-07 - utility.Logconfig -INFO - Password validated
+ -info -482019-07-07 - utility.Logconfig -INFO - successfully login
+ -info -482019-07-07 - utility.Logconfig -INFO - profile opened
+ -info -482019-07-07 - utility.Logconfig -INFO - Profile setting opened
+ -info -482019-07-07 - utility.Logconfig -INFO - click on manage address
+ -info -482019-07-07 - utility.Logconfig -INFO - click on address
+ -info -482019-07-188 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -162019-07-188 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -182019-07-188 - utility.Logconfig -INFO - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+ -startTestCase -202019-07-188 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -222019-07-188 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -242019-07-188 - utility.Logconfig -INFO - username webelement detected
+ -info -482019-07-188 - utility.Logconfig -ERROR - webelement not found
+ -error -602019-07-188 - utility.Logconfig -INFO - Email id validate successfully
+ -info -482019-07-188 - utility.Logconfig -INFO - Password validated
+ -info -482019-07-188 - utility.Logconfig -WARN - should click on button
+ -warn -542019-07-188 - utility.Logconfig -INFO - successfully login
+ -info -482019-07-188 - utility.Logconfig -INFO - profile opened
+ -info -482019-07-188 - utility.Logconfig -INFO - Profile setting opened
+ -info -482019-07-188 - utility.Logconfig -INFO - click on manage address
+ -info -482019-07-188 - utility.Logconfig -INFO - click on address
+ -info -482019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -162019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -182019-07-189 - utility.Logconfig -INFO - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+ -startTestCase -202019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -222019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -242019-07-189 - utility.Logconfig -INFO - username webelement detected
+ -info -482019-07-189 - utility.Logconfig -ERROR - webelement not found
+ -error -602019-07-189 - utility.Logconfig -WARN - should click on button
+ -warn -542019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -162019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -182019-07-189 - utility.Logconfig -INFO - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+ -startTestCase -202019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -222019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -242019-07-189 - utility.Logconfig -INFO - username webelement detected
+ -info -482019-07-189 - utility.Logconfig -ERROR - webelement not found
+ -error -602019-07-189 - utility.Logconfig -WARN - should click on button
+ -warn -542019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -162019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -182019-07-189 - utility.Logconfig -INFO - $$$$$$$$$$$$$$$$$$$$$                 LoginPage       $$$$$$$$$$$$$$$$$$$$$$$$$
+ -startTestCase -202019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -222019-07-189 - utility.Logconfig -INFO - ****************************************************************************************
+ -startTestCase -242019-07-189 - utility.Logconfig -INFO - username webelement detected
+ -info -482019-07-189 - utility.Logconfig -ERROR - webelement not found
+ -error -602019-07-189 - utility.Logconfig -INFO - Email id validate successfully
+ -info -482019-07-189 - utility.Logconfig -INFO - Password validated
+ -info -482019-07-189 - utility.Logconfig -WARN - should click on button
+ -warn -542019-07-189 - utility.Logconfig -INFO - successfully login
+ -info -482019-07-189 - utility.Logconfig -INFO - profile opened
+ -info -482019-07-189 - utility.Logconfig -INFO - Profile setting opened
+ -info -482019-07-189 - utility.Logconfig -INFO - click on manage address
+ -info -482019-07-189 - utility.Logconfig -INFO - click on address
+ -info -48

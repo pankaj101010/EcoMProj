@@ -1,26 +1,17 @@
 package stepDefination;
 
-import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import keyword.Constants;
-import keyword.Keyword;
 import pageObjects.LoginPage;
 import utility.Logconfig;
 import utility.ReadConfig;
 
 public class LoginStep {
-	LoginPage page;
-	ReadConfig prop;
-	Logconfig log;
-	{
-		Keyword.openBrowser("chrome");
-		Keyword.LaunchUrl("https://www.flipkart.com");
-		Keyword.windowMaximize();
-		log = new Logconfig();
-		prop = new ReadConfig();
-		page = new LoginPage(Constants.driver);
-	}
+	LoginPage page = new LoginPage(Constants.driver);;
+	ReadConfig prop = new ReadConfig();;
+	Logconfig log = new Logconfig();;
+
 
 	@Given("^user should enter valid username$")
 	public void user_should_enter_valid_username() throws Throwable {
