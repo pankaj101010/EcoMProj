@@ -54,13 +54,10 @@ public class Keyword {
     
 	public static void openBrowser(String browsername) {
 
-		switch (browsername) {
+		switch (browsername.toLowerCase()) {
 		case "chrome":
-			if (browsername.equalsIgnoreCase("CHROME")) {
 				Constants.driver = new ChromeDriver();
-
 				break;
-			}
 		case "firefox":
 			if (browsername.equalsIgnoreCase("FIREFOX")) {
 				Constants.driver = new FirefoxDriver();
@@ -253,10 +250,10 @@ public class Keyword {
 		Date date = new Date();
 		// SimpleDateFormat Format = new SimpleDateFormat("E, dd MMM yyyy, HH_mm_ss");
 		// String DateFormat = Format.format(date);
-		Constants.sceenshot = shot.shootingStrategy(ShootingStrategies.viewportPasting(1000))
+		Constants.screenshot = shot.shootingStrategy(ShootingStrategies.viewportPasting(1000))
 				.takeScreenshot(Constants.driver);
 		try {
-			ImageIO.write(Constants.sceenshot.getImage(), "PNG",
+			ImageIO.write(Constants.screenshot.getImage(), "PNG",
 					new File("E:\\test\\SampleWS\\test\\MyntraProject\\ScreenShot\\" + DateAndTime + ".png"));
 
 		} catch (IOException e) {

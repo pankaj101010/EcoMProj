@@ -11,6 +11,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "./feature", glue = { "stepDefination" }, tags = { "~@multipleLogin "},
 plugin = {"pretty","html:targetReport/cucumber"},monochrome=true)
-public class Runner {
+public class Runner  {
 
 }

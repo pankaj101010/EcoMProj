@@ -1,7 +1,15 @@
+E:\FrameWorkCumber\Ecom\src\test\java\pageObjects\AddressPage.java
 E:\FrameWorkCumber\Ecom\src\test\java\testcase\Runner.java
-E:\FrameWorkCumber\Ecom\src\test\java\stepDefination\PageBase.java
+E:\FrameWorkCumber\Ecom\src\test\java\stepDefination\NewAddress.java
 E:\FrameWorkCumber\Ecom\src\test\java\stepDefination\LoginStep.java
+E:\FrameWorkCumber\Ecom\src\test\java\utility\ReadConfig.java
+E:\FrameWorkCumber\Ecom\src\test\java\pageObjects\ManageAddresses.java
 E:\FrameWorkCumber\Ecom\src\test\java\utility\Readingcsv.java
 E:\FrameWorkCumber\Ecom\src\test\java\keyword\Constants.java
-E:\FrameWorkCumber\Ecom\src\test\java\keyword\Keyword.java
 E:\FrameWorkCumber\Ecom\src\test\java\utility\ReadExcelFile.java
+E:\FrameWorkCumber\Ecom\src\test\java\stepDefination\FailTestCaseLogin.java
+E:\FrameWorkCumber\Ecom\src\test\java\stepDefination\AddressManage.java
+E:\FrameWorkCumber\Ecom\src\test\java\stepDefination\BaseClass.java
+E:\FrameWorkCumber\Ecom\src\test\java\utility\Logconfig.java
+E:\FrameWorkCumber\Ecom\src\test\java\keyword\Keyword.java
+E:\FrameWorkCumber\Ecom\src\test\java\pageObjects\LoginPage.java
